@@ -22,12 +22,14 @@ function Navigation() {
   return (
     <>
       <AppBar
-        position="static"
+        position="sticky"
         elevation={0}
         sx={{
           bgcolor: "#fff",
           color: "#444",
           borderBottom: "1px solid #eee",
+          top: 0,
+          zIndex: 1100,
         }}
       >
         <Toolbar sx={{ px: { xs: 2, md: 8 } }}>
