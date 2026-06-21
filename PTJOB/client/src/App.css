@@ -189,6 +189,92 @@
     justify-content: center;
   }
 }
+
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7ff 0%, #eef2ff 50%, #ffffff 100%);
+  height: 90vh;
+  padding: 12px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12);
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  padding: 30px 24px;
+}
+
+.auth-title {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-size: 2rem !important;
+}
+
+.auth-subtitle {
+  color: #6b7280;
+  margin-bottom: 18px !important;
+  font-size: 0.95rem !important;
+  line-height: 1.5 !important;
+}
+
+.auth-forgot-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 18px;
+}
+
+.auth-label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 0.9rem !important;
+}
+
+.auth-field {
+  margin-bottom: 18px !important;
+}
+
+.auth-field .MuiInputBase-root {
+  min-height: 44px;
+  border-radius: 10px;
+}
+
+.auth-field .MuiInputBase-input {
+  padding: 11px 14px;
+  font-size: 0.95rem;
+}
+
+.auth-button {
+  background: #ff5a2c !important;
+  color: #ffffff !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  border-radius: 10px !important;
+  font-size: 0.98rem !important;
+  text-transform: none !important;
+  font-weight: 700 !important;
+  box-shadow: none !important;
+}
+
+.auth-button:hover {
+  background: #f24d1d !important;
+  box-shadow: none !important;
+}
+
+.auth-link {
+  color: #304ffe !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+.auth-link:hover {
+  text-decoration: underline !important;
+}
 /* Featured Jobs CSS */
 
 .job-card {

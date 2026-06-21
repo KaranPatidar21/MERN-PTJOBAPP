@@ -1,6 +1,7 @@
-import { loginPageUrl } from "../constant";
+import { loginPageUrl, registerPageUrl } from "../constant";
 import Home from "../pages/home";
-import Login from "../pages/Login";
+import Login from "../pages/login";
+import Register from "../pages/register";
 
 
 export const appRoutes = [
@@ -11,5 +12,9 @@ export const appRoutes = [
   {
     path: loginPageUrl,
     component: Login,
+  },
+  {
+    path: registerPageUrl,
+    component: Register,
   },
 ];
