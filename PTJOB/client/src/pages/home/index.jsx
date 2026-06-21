@@ -1,9 +1,14 @@
+import { Box } from "@mui/material"
 import Banner from "./Banner"
+import FeaturedJobs from "./FeaturedJobs"
 
 function Home() {
   return (
     <>
-      <Banner />
+      <Box >
+          <Banner />
+          <FeaturedJobs />
+      </Box>
     </>
   )
 }

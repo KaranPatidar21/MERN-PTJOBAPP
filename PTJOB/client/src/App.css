@@ -9,7 +9,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px;
+}
+
+.outer-hero-container {
   background: linear-gradient(to right, #f8f8fd, #fff7f7);
 }
 
@@ -186,4 +188,100 @@
   .hero-buttons {
     justify-content: center;
   }
+}
+/* Featured Jobs CSS */
+
+.job-card {
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  border: 1px solid #ececec;
+  background: #ffffff;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 26px;
+}
+
+.logo-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 18px;
+  background: #f2f4ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.urgent-chip {
+  background: #fff1ec !important;
+  color: #ff6b4a !important;
+  font-weight: 600 !important;
+  border-radius: 999px !important;
+}
+
+.job-title {
+  font-size: 40px;
+  font-weight: 700 !important;
+  color: #111827;
+  line-height: 1.1;
+  margin-bottom: 4px !important;
+}
+
+.company-text {
+  color: #6b7280;
+  font-size: 18px !important;
+  margin-bottom: 8px !important;
+}
+
+.tags {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.tag-chip {
+  background: #f3f4f6 !important;
+  color: #4b5563 !important;
+  border-radius: 999px !important;
+  font-weight: 600 !important;
+  padding: 4px 6px;
+}
+
+.tag-chip.active {
+  background: #eef2ff !important;
+  color: #3559ff !important;
+}
+
+.divider {
+  height: 1px;
+  background: #e5e7eb;
+  margin-bottom: 8px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.salary {
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  color: #111827;
+}
+
+.posted-text {
+  color: #6b7280;
+  font-size: 13px !important;
+  margin-top: 4px !important;
+}
+
+.featured-jobs-container {
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
